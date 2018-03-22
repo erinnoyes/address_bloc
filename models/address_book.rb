@@ -48,4 +48,8 @@ end
       
       return nil
   end
+  
+  def destroy
+      @entries = []
+  end
 end
